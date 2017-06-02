@@ -4,8 +4,10 @@ body {
 }
 
 nav {
-  h1 {
+  a {
     font-family: 'Niconne', cursive;
-    color: rgb(255,82,82);
+    font-weight: 600;
+    font-size: 35px !important;
+    color: rgb(255,82,82) !important;
   }
 }
