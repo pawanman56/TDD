@@ -31,7 +31,7 @@ RSpec.describe PostsController, type: :controller do
           post :create, post: FactoryGirl.attributes_for(:post)
         }.to change(Post, :count).by(1)
       end
-      it "redirects to root_path" do 
+      it "redirects to root_path" do
       
       end
     end
