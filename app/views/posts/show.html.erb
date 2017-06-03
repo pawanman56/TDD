@@ -1,6 +1,8 @@
-<% @posts.each do |post| %>
-  <h2><%= post.title %> by <%= post.author %></h2>
-  <p>
-    <%= post.content %>
-  </p>
-<% end %>
+<div class="col-sm-12 col-md-4 col-md-offset-4">
+  <% @posts.each do |post| %>
+    <h2><%= post.title %> by <%= post.author %></h2>
+    <p>
+      <%= post.content %>
+    </p>
+  <% end %>
+</div>

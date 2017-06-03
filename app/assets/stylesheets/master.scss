@@ -4,10 +4,14 @@ body {
 }
 
 nav {
-  a {
+  a.navbar-brand {
     font-family: 'Niconne', cursive;
     font-weight: 600;
     font-size: 35px !important;
     color: rgb(255,82,82) !important;
+  }
+
+  .nav-right {
+    float: right;
   }
 }
